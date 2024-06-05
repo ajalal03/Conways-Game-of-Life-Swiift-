@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nv4-mg-igI">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4eu-Bb-Mvs">
+                                        <rect key="frame" x="207" y="448" width="0.0" height="0.0"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" editable="NO" text="I got my icon from a free app icon website : https://icons8.com/icon/set/logos/ios" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="XaJ-ZT-sM4">
+                                        <rect key="frame" x="24" y="378" width="366" height="140"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="140" id="ieK-Ad-WoV"/>
+                                        </constraints>
+                                        <color key="textColor" systemColor="labelColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                        <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
+                                    </textView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image 1" highlighted="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9uA-kD-j72">
+                                        <rect key="frame" x="59" y="145" width="296" height="340"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" name="PastelSimulation"/>
+                                <constraints>
+                                    <constraint firstItem="4eu-Bb-Mvs" firstAttribute="centerY" secondItem="nv4-mg-igI" secondAttribute="centerY" id="DEx-B8-eDG"/>
+                                    <constraint firstItem="XaJ-ZT-sM4" firstAttribute="top" secondItem="4eu-Bb-Mvs" secondAttribute="bottom" constant="8" id="a4t-2H-quI"/>
+                                    <constraint firstItem="XaJ-ZT-sM4" firstAttribute="leading" secondItem="nv4-mg-igI" secondAttribute="leading" constant="24" id="kSO-zt-gZD"/>
+                                    <constraint firstItem="XaJ-ZT-sM4" firstAttribute="centerX" secondItem="nv4-mg-igI" secondAttribute="centerX" id="t6I-Wb-GgP"/>
+                                    <constraint firstAttribute="trailing" secondItem="XaJ-ZT-sM4" secondAttribute="trailing" constant="24" id="uYt-e1-0Vh"/>
+                                    <constraint firstItem="4eu-Bb-Mvs" firstAttribute="centerX" secondItem="nv4-mg-igI" secondAttribute="centerX" id="yCn-2F-HjV"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="nv4-mg-igI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="3tB-0t-aCg"/>
+                            <constraint firstItem="nv4-mg-igI" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="R0w-gO-clq"/>
+                            <constraint firstItem="nv4-mg-igI" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Zre-V0-NBK"/>
+                            <constraint firstAttribute="bottom" secondItem="nv4-mg-igI" secondAttribute="bottom" id="avc-uN-obN"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Image 1" width="120" height="120"/>
+        <namedColor name="PastelSimulation">
+            <color red="0.5899999737739563" green="0.64899998903274536" blue="0.4050000011920929" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
